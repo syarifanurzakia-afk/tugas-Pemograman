@@ -1,0 +1,70 @@
+#PythonMemilikiMetode BawaanYangDapatPada Array.
+
+#MethodArray
+#append():MenambahkanElemenDiakhir
+#clear():Menghapus SemuaElemen
+#copy():MengembalikanSalinan
+#count()	:Mengembalikan jumlah elemen dengan nilai yang ditentukan
+#extend():Menambahkan elemen
+#index():Mengembalikan indeks elemen pertama dengan nilai yang ditentukan
+#insert():Menambahkan elemen pada posisi yang ditentukan
+#pop():Menghapus elemen pada posisi yang ditentukan 
+#remove():Menghapus item pertama dengan nilai yang ditentukan
+#reverse():Membalikkan urutan 
+#sort():Mengurutkan
+
+
+#PenerapanDictionary
+#DictionaryAdalahStrukturDataDenganAdaKata "Kunci"DanAdanya"Nilai"
+
+#contoh
+me = {
+    "nama": "star up",
+    "url:" "https://www.starup.com"
+}
+
+ #Dictionary bernama me dengan isi data nama dan URL.nama dan url adalah kata kunci (key) yang akan di gunakan untuk mengakses nilai di dalamnya.
+#KeydanValueDipisahDengan(:)
+#SementaraJikaLebihDipisahDengan(,).
+
+#MembuatDictionary
+#contoh
+
+nama_dict = {
+    "key": "value"
+}
+
+
+#MenggunakanConstructor("dict()")
+
+#Contoh
+
+jenisos_linux= dict(linux="kalilinux", linux="ubuntu", linux="archlinux")
+
+
+{'linux': 'kalilinux', 'linux': 'archlinux', 'linux': 'ubuntu'}
+
+#MengaksesNilaiItem
+#contoh
+
+#Mengakses isi dictionary
+print("Nama saya adalah %s" % Syarifa["nama"])
+print("LinkedIn: %s" % Syarifa["sosmed"]["LinkedIn"])
+
+#mengambil nilai Dictionary dengan menggunakan method get()
+
+#contoh
+print(starup.get("nama"))
+
+#methodDictionary
+#for in(perulangan)
+#pop()(mengeluarkanitem)
+#del(menghapus suatu fungsi variabel dari memori
+#clear()(menghapus keseluruhan variabel)
+#update()(untuk mengubah nilai)
+#len()(menambahkanpanjangdictionary)
+
+
+
+#sumberW3schools
+#sumberpetanicode
